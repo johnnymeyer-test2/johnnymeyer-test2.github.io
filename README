@@ -1,0 +1,8 @@
+To generate the site, run:
+jekyll build
+
+To create a local server, run:
+jekyll serve
+
+Then the site can be seen at:
+127.0.0.1:4000

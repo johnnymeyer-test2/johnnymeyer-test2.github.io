@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 40%;
 }
 
 nav ul, footer ul {
@@ -47,4 +47,22 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.boggle-table {
+    table-layout: fixed;
+    width: 70%;
+    margin: 20px 20px 20px 20px;
+}
+
+td {
+    background-color: #dddddd;
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: red;
 }
