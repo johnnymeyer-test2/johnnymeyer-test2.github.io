@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "John-Paul Meyer, Launches Site"
+title: "Site Launched"
 date: 2016-01-20
 ---
 
