@@ -1,3 +1,5 @@
+alert("Hey");
+
 /*
 var a1 = document.getElementById("a1").innerText;
 alert(a1);

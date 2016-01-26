@@ -1,6 +1,95 @@
 body {
     margin: 60px auto;
-    width: 40%;
+    margin-bottom: 240px;
+    width: 50%;
+}
+
+@media (max-width:768px) {
+body {
+    width: 80%;
+}
+}
+
+nav {
+    overflow: auto;
+    background-color: #222;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #222;
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+ul {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+td {
+    background-color: #dddddd;
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+::selection {
+  background: #26d4b2; /* WebKit/Blink Browsers */
+/*#ffb7b7  */
+}
+
+::-moz-selection {
+  background: #  #26d4b2; /* Gecko Browsers */
+}
+
+td:hover {
+    background-color: red;
+}
+
+.right {
+    float: right;
+    /*margin-right: 40px;*/
+}
+
+nav ul {
+    margin-top: 1px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav ul a:hover {
+    color: #222;
+    text-decoration: none;
+    background-color: #fff;
 }
 
 nav ul, footer ul {
@@ -13,31 +102,6 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-}
-
-nav ul {
-    margin-top: 40px;
-}
-
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }
 
 ul.posts {
@@ -55,14 +119,5 @@ ul.posts li {
     margin: 20px 20px 20px 20px;
 }
 
-td {
-    background-color: #dddddd;
-    border-radius: 3px;
-    height: 30px;
-    width: 30px;
-    text-align: center;
-}
 
-td:hover {
-    background-color: red;
-}
+
