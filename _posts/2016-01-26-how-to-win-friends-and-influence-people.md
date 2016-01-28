@@ -17,6 +17,7 @@ date: 2016-01-26
 
 # The Big Secret of Dealing With People
 * One of the deepest urges in human nature is the desire to be important, to be great, to be appreciated.
-* 'I consider my ability to arouse enthusiasm among my people the greatest asset I possess, and the way to develop the best that is in a person is by appreciation and encouragement.' - Charles Schwab
 * Appreciation is sincere. Flattery is insincere.
+* **Principle 2:** Give honest and sincere appreciation.
 
+# He Who Can Do This Has the Whole World With Him

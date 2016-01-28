@@ -9,10 +9,10 @@
 		<body>
 			<nav>
 	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
+	        		<li><a href="/"      {% if page.active == 'home' %}class='active'{% endif %}>Home</a></li>
+		        	<li><a href="/about" {% if page.active == 'about' %}class='active'{% endif %}>About</a></li>
+	        		<li><a href="/cv"    {% if page.active == 'cv' %}class='active'{% endif %}>CV</a></li>
+	        		<li><a href="/blog"  {% if page.active == 'blog' %}class='active'{% endif %}>Blog</a></li>
 	    		</ul>
     			<!-- <img class="right" src="/profile.png" width="90"> -->
 			</nav>

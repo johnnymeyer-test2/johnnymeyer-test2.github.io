@@ -74,6 +74,7 @@ td:hover {
     /*margin-right: 40px;*/
 }
 
+
 nav ul {
     margin-top: 1px;
     margin-bottom: 0px;
@@ -84,11 +85,17 @@ nav ul a {
     color: #fff;
     text-decoration: none;
     padding: 20px;
+    /*padding: 4%;*/
 }
 
 nav ul a:hover {
     color: #222;
     text-decoration: none;
+    background-color: #fff;
+}
+
+.active {
+    color: #222;
     background-color: #fff;
 }
 
@@ -101,7 +108,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
 }
 
 ul.posts {
