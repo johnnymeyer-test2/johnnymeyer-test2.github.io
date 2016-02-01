@@ -1,19 +1,66 @@
-body {
+.body {
     margin: 60px auto;
     margin-bottom: 240px;
     width: 50%;
 }
 
 @media (max-width:768px) {
-body {
-    width: 80%;
+.body {
+    width: 100%;
 }
 }
 
 nav {
-    overflow: auto;
+    position: relative;
+    /*overflow: auto;*/
     background-color: #222;
     padding: 20px;
+    height: 38px;
+}
+
+#name {
+    float: left;
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 20px;
+    /*margin-right: 40px;*/
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    background: #222;
+}
+
+#logo {
+    float: right;
+    /*position: absolute;*/
+    /*left: 100%;*/
+    width: 40px;
+    /*margin-left: -20px;  halve the width of the image */
+}
+
+}
+
+#links {
+    /*float: left;*/
+    /*position: absolute;*/
+
+/*    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    height:100%;
+*/}
+
+
+
+
+
+#links > li {
+    float: left;
+    margin-left: 10px;
 }
 
 a {
@@ -69,12 +116,6 @@ td:hover {
     background-color: red;
 }
 
-.right {
-    float: right;
-    /*margin-right: 40px;*/
-}
-
-
 nav ul {
     margin-top: 1px;
     margin-bottom: 0px;
@@ -107,7 +148,7 @@ nav ul, footer ul {
     float: left;
 }
 nav ul li, footer ul li {
-    display: inline;
+    /*display: inline;*/
     /*margin-right: 20px;*/
 }
 

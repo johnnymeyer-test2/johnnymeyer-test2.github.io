@@ -66,11 +66,11 @@ for geometric progressions we get
 \begin{align\*}
 \sum_{k=1}^\infty kx^k
 &= \sum_{j=0}^\infty
-\left( \frac{1}{1-x} - \frac{1-x^{j+1}}{1-x} \right) \\
+\left( \frac{1}{1-x} - \frac{1-x^{j+1}}{1-x} \right) \\\
 &= \sum_{j=0}^\infty
-\frac{x^{j+1}}{1-x} \\
-&= \frac{x}{1-x} \sum_{j=0}^\infty x^j \\
-&= \frac{x}{1-x} \frac{1}{1-x} \\
+\frac{x^{j+1}}{1-x} \\\
+&= \frac{x}{1-x} \sum_{j=0}^\infty x^j \\\
+&= \frac{x}{1-x} \frac{1}{1-x} \\\
 &= \frac{x}{(1-x)^2}
 \end{align\*}
 which we note is only valid for $|x| < 1$

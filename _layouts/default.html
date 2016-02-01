@@ -8,30 +8,33 @@
 		</head>
 		<body>
 			<nav>
-	    		<ul>
+				<span id="name">JP Meyer</span>
+	    		<ul id="links">
 	        		<li><a href="/"      {% if page.active == 'home' %}class='active'{% endif %}>Home</a></li>
 		        	<li><a href="/about" {% if page.active == 'about' %}class='active'{% endif %}>About</a></li>
 	        		<li><a href="/cv"    {% if page.active == 'cv' %}class='active'{% endif %}>CV</a></li>
 	        		<li><a href="/blog"  {% if page.active == 'blog' %}class='active'{% endif %}>Blog</a></li>
 	    		</ul>
-    			<!-- <img class="right" src="/profile.png" width="90"> -->
+    			<img id="logo" src="/profile.png">
 			</nav>
-			<div class="container">
+			<div class="body">
 
 
 			{{ content }}
 
 
 
-			</div><!-- /.container -->
+			</div><!-- /.body -->
 			<footer>
-	    		<ul>
-	    			  <li><a href="mailto:johnnymeyer-test2@gmail.com">email</a></li>
-        		  <li><a href="https://github.com/johnnymeyer-test2">github.com/johnnymeyer-test2</a></li>
+	    		<ul id="links">
+	    			<li><a href="mailto:johnnymeyer-test2@gmail.com">email</a></li>
+        		   <li><a href="https://github.com/johnnymeyer-test2">github.com/johnnymeyer-test2</a></li>
 				</ul>
 			</footer>
 		</body>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
 
 <!-- Include any custom javascripts -->
 		{% if page.custom_js %}

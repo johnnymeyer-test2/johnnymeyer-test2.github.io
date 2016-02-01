@@ -21,3 +21,9 @@ date: 2016-01-26
 * **Principle 2:** Give honest and sincere appreciation.
 
 # He Who Can Do This Has the Whole World With Him
+* Everyone is interested in what _they_ want.
+* The only way to influence other people is to talk about what _they_ want and show them how to get it.
+* **Principle 3:** Arouse in the other person an eager want.
+
+# Do This and You'll Be Welcome Anywhere
+* You can make more friends in two months by becoming interested in people than in two years by trying to make people interested in you.
