@@ -28,3 +28,7 @@ date: 2016-01-26
 # Do This and You'll Be Welcome Anywhere
 * You can make more friends in two months by becoming interested in people than in two years by trying to make people interested in you.
 * **Principle 4:** Become genuinely interested in other people.
+
+# A Simple Way to Make a Good First Impression
+* The expression one wears on one's face is far more important than the clothes one wears on one's back.
+* **Principle 5:** Smile.
